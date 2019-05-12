@@ -42,3 +42,24 @@ sklearn.model_selection  train_test_spilt
 代价函数
 -------
 ![image](https://github.com/zzcNEU/ml/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95%E6%95%B4%E7%90%86/%E5%9B%BE%E7%89%87/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0.png)
+
+优化方法
+-------
+梯度下降
+-------
+牛顿法
+------
+
+评估指标
+-------
+均方误差（MSE），用 真实值-预测值 然后平方之后求和平均。其实就是线性回归的损失函数。
+均方根误差（RMSE），MSE开根号
+平均绝对误差（MAE），将上面的平方和根号换成绝对值。
+
+sklearn参数解释
+--------------
+from sklearn.linear_model import LinearRegression
+[sklearn官网函数解释]https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn-linear-model-linearregression
+
+
+
