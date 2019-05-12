@@ -39,4 +39,6 @@
 
 sklearn.model_selection  train_test_spilt
 
-
+代价函数
+-------
+![image](https://github.com/zzcNEU/ml/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95%E6%95%B4%E7%90%86/%E5%9B%BE%E7%89%87/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0.png)
