@@ -47,8 +47,11 @@ sklearn.model_selection  train_test_spilt
 -------
 梯度下降
 -------
+梯度下降法是最早最简单，也是最为常用的最优化方法。梯度下降法实现简单，当目标函数是凸函数时，梯度下降法的解是全局解。一般情况下，其解不保证是全局最优解，梯度下降法的速度也未必是最快的。梯度下降法的优化思想是用当前位置负梯度方向作为搜索方向，因为该方向为当前位置的最快下降方向，所以也被称为是”最速下降法“。最速下降法越接近目标值，步长越小，前进越慢。
+
 牛顿法
 ------
+牛顿法的基本思想是利用迭代点处的一阶导数（梯度）和二阶导数（Hessian）对目标函数进行二次函数近似，然后把二次模型的极小点作为新的迭代点，并不断重复这一过程，直至求得满足精度的近似极小值
 
 评估指标
 -------
@@ -59,6 +62,7 @@ sklearn.model_selection  train_test_spilt
 sklearn参数解释
 --------------
 from sklearn.linear_model import LinearRegression
+
 [sklearn官网函数解释]https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn-linear-model-linearregression
 
 
